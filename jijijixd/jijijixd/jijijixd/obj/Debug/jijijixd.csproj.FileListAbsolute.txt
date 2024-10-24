@@ -21,3 +21,4 @@ C:\Users\CC2-PC20\Documents\SharpDevelop Projects\jijijixd\jijijixd\jijijixd\obj
 C:\Users\CC2-PC20\Documents\SharpDevelop Projects\jijijixd\jijijixd\jijijixd\bin\Debug\jijijixd.exe
 C:\Users\CC2-PC20\Documents\SharpDevelop Projects\jijijixd\jijijixd\jijijixd\bin\Debug\jijijixd.pdb
 C:\Users\expre\OneDrive\Documentos\SharpDevelop Projects\jijijixd\jijijixd\jijijixd\obj\Debug\jijijixd.Form2.resources
+C:\Users\expre\OneDrive\Documentos\SharpDevelop Projects\jijijixd\jijijixd\jijijixd\obj\Debug\jijijixd.Form3.resources

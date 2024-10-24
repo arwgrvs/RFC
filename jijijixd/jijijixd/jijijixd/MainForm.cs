@@ -56,5 +56,11 @@ namespace jijijixd
 			}
 		}
 		
+		
+		void Button2Click(object sender, EventArgs e)
+		{
+			Form3 Form3=new Form3();
+			Form3.Show();
+		}
 	}
 }
