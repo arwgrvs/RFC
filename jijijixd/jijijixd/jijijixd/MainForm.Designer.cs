@@ -59,6 +59,7 @@ namespace jijijixd
 			// 
 			// label1
 			// 
+			this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.label1.Location = new System.Drawing.Point(76, 92);
 			this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label1.Name = "label1";
@@ -68,6 +69,7 @@ namespace jijijixd
 			// 
 			// label2
 			// 
+			this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.label2.Location = new System.Drawing.Point(76, 146);
 			this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label2.Name = "label2";
@@ -77,6 +79,7 @@ namespace jijijixd
 			// 
 			// label3
 			// 
+			this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.label3.Location = new System.Drawing.Point(76, 200);
 			this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label3.Name = "label3";
@@ -86,6 +89,7 @@ namespace jijijixd
 			// 
 			// label4
 			// 
+			this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.label4.Location = new System.Drawing.Point(76, 249);
 			this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label4.Name = "label4";
@@ -95,6 +99,7 @@ namespace jijijixd
 			// 
 			// label5
 			// 
+			this.label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.label5.Location = new System.Drawing.Point(76, 303);
 			this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label5.Name = "label5";
@@ -104,6 +109,7 @@ namespace jijijixd
 			// 
 			// label6
 			// 
+			this.label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.label6.Location = new System.Drawing.Point(76, 365);
 			this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label6.Name = "label6";
@@ -113,6 +119,7 @@ namespace jijijixd
 			// 
 			// label7
 			// 
+			this.label7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.label7.Location = new System.Drawing.Point(76, 420);
 			this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label7.Name = "label7";

@@ -40,30 +40,33 @@ namespace jijijixd
 			this.lbl_nom2 = new System.Windows.Forms.Label();
 			this.label1 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
+			this.label3 = new System.Windows.Forms.Label();
+			this.button1 = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// lbl_rfc
 			// 
-			this.lbl_rfc.Location = new System.Drawing.Point(148, 195);
+			this.lbl_rfc.Location = new System.Drawing.Point(197, 275);
 			this.lbl_rfc.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.lbl_rfc.Name = "lbl_rfc";
-			this.lbl_rfc.Size = new System.Drawing.Size(207, 35);
+			this.lbl_rfc.Size = new System.Drawing.Size(220, 61);
 			this.lbl_rfc.TabIndex = 0;
 			this.lbl_rfc.Text = "____________";
 			// 
 			// lbl_nom2
 			// 
-			this.lbl_nom2.Location = new System.Drawing.Point(148, 74);
+			this.lbl_nom2.Location = new System.Drawing.Point(197, 154);
 			this.lbl_nom2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.lbl_nom2.Name = "lbl_nom2";
-			this.lbl_nom2.Size = new System.Drawing.Size(230, 69);
+			this.lbl_nom2.Size = new System.Drawing.Size(269, 97);
 			this.lbl_nom2.TabIndex = 1;
 			this.lbl_nom2.Text = "____________";
 			// 
 			// label1
 			// 
+			this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label1.Location = new System.Drawing.Point(32, 74);
+			this.label1.Location = new System.Drawing.Point(58, 154);
 			this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(108, 34);
@@ -72,19 +75,42 @@ namespace jijijixd
 			// 
 			// label2
 			// 
+			this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label2.Location = new System.Drawing.Point(45, 195);
+			this.label2.Location = new System.Drawing.Point(71, 275);
 			this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(60, 26);
 			this.label2.TabIndex = 3;
 			this.label2.Text = "RFC";
 			// 
+			// label3
+			// 
+			this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label3.Location = new System.Drawing.Point(144, 29);
+			this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+			this.label3.Name = "label3";
+			this.label3.Size = new System.Drawing.Size(283, 77);
+			this.label3.TabIndex = 4;
+			this.label3.Text = "Datos completos";
+			// 
+			// button1
+			// 
+			this.button1.Location = new System.Drawing.Point(37, 383);
+			this.button1.Name = "button1";
+			this.button1.Size = new System.Drawing.Size(75, 42);
+			this.button1.TabIndex = 5;
+			this.button1.Text = "<";
+			this.button1.UseVisualStyleBackColor = true;
+			this.button1.Click += new System.EventHandler(this.Button1Click);
+			// 
 			// Form2
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(426, 402);
+			this.ClientSize = new System.Drawing.Size(559, 437);
+			this.Controls.Add(this.button1);
+			this.Controls.Add(this.label3);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.lbl_nom2);
@@ -94,6 +120,8 @@ namespace jijijixd
 			this.Text = "RFC";
 			this.ResumeLayout(false);
 		}
+		private System.Windows.Forms.Button button1;
+		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Label lbl_nom2;

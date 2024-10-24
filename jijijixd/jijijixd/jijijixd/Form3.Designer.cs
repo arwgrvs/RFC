@@ -63,6 +63,7 @@ namespace jijijixd
 			// 
 			// label2
 			// 
+			this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.label2.Location = new System.Drawing.Point(57, 113);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(100, 23);
@@ -71,6 +72,7 @@ namespace jijijixd
 			// 
 			// label3
 			// 
+			this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.label3.Location = new System.Drawing.Point(57, 232);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(100, 50);
@@ -79,6 +81,7 @@ namespace jijijixd
 			// 
 			// label4
 			// 
+			this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.label4.Location = new System.Drawing.Point(57, 173);
 			this.label4.Name = "label4";
 			this.label4.Size = new System.Drawing.Size(79, 23);
@@ -87,6 +90,7 @@ namespace jijijixd
 			// 
 			// label5
 			// 
+			this.label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.label5.Location = new System.Drawing.Point(57, 448);
 			this.label5.Name = "label5";
 			this.label5.Size = new System.Drawing.Size(79, 23);
@@ -95,14 +99,16 @@ namespace jijijixd
 			// 
 			// label6
 			// 
+			this.label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.label6.Location = new System.Drawing.Point(57, 369);
 			this.label6.Name = "label6";
-			this.label6.Size = new System.Drawing.Size(79, 44);
+			this.label6.Size = new System.Drawing.Size(115, 59);
 			this.label6.TabIndex = 5;
 			this.label6.Text = "Fecha de creacion";
 			// 
 			// label7
 			// 
+			this.label7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
 			this.label7.Location = new System.Drawing.Point(57, 309);
 			this.label7.Name = "label7";
 			this.label7.Size = new System.Drawing.Size(79, 23);
@@ -139,7 +145,7 @@ namespace jijijixd
 			this.label11.Name = "label11";
 			this.label11.Size = new System.Drawing.Size(100, 23);
 			this.label11.TabIndex = 10;
-			this.label11.Text = "4.0";
+			this.label11.Text = "5.0";
 			// 
 			// label12
 			// 
