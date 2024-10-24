@@ -48,7 +48,11 @@ namespace jijijixd
 				string mes=fecha.Substring(3,2);
 				string anio=fecha.Substring(6,2);
 				string mfmf=ape1+ape2+nom+anio+mes+dia;
-				lbl_final.Text=mfmf.ToString();
+				label9.Text=mfmf.ToString();
+				string textToPass = txt_nom.Text+" "+txt_ap1.Text+" "+txt_ap2.Text;
+				string textToPass2 = label9.Text;
+    			Form2 form2 = new Form2(textToPass, textToPass2);
+    			form2.Show();
 			}
 		}
 		
